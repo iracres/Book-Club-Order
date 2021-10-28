@@ -1,0 +1,64 @@
+/*
+Style tags for OrderBar, 
+specifically for the fonts
+and buttons
+*/
+
+.navbar {
+    height: 110px;
+    background-color: rgb(233, 203, 173);
+    font-family: 'Trebuchet MS';
+    color: navy;
+    text-align: center;
+    font: caption;
+    font-size: 50px;
+    justify-content: center; 
+    align-items: center;
+    float: center;
+}
+
+.main {
+    background-color: bisque;
+    height: 600px;
+    align-items: flex-start;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    word-spacing: 0px;
+}
+/*
+This is defining all the buttons (just checkout and add to cart)
+*/
+.BarButton {
+    color: rgb(170, 87, 49);
+    font-size: 15px;
+    line-height: 15px;
+    padding: 5px;
+    border-radius: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: white;
+    background-image: linear-gradient(to right,rgb(233, 211, 169)  0%,  rgba(236, 182, 140, 0.904)50%, rgb(233, 211, 169) 100%);
+    box-shadow: rgba(0, 0, 0, 0.24) 5px 5px 32px 5px; 
+    display: inline-block;
+    border: 1px solid
+}
+.BarButton:hover{
+    background-image: linear-gradient(to right, rgba(236, 182, 140, 0.904) 0%, rgb(233, 211, 169) 50%, rgb(236, 182, 140, 0.904) 100%);
+}
+.BarButton:active{
+    background: rgba(236, 182, 140, 0.904);
+}
+/*
+For the 
+*/
+.question{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    letter-spacing: -0.4px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: 200;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
